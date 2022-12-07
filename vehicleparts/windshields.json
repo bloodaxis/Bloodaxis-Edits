@@ -1,0 +1,17 @@
+[
+  {
+    "copy-from": "reinforced_windshield_abstract",
+    "id": "reinforced_windshield",
+    "type": "vehicle_part",
+	"damage_reduction": { "all": 99999, "cut": 99999, "stab": 99999 },
+	"durability": 99999
+  },
+  {
+    "copy-from": "reinforced_windshield_abstract",
+    "id": "reinforced_windshield_full",
+    "type": "vehicle_part",
+	"looks_like": "reinforced_windshield",
+	"damage_reduction": { "all": 99999, "cut": 99999, "stab": 99999 },
+	"durability": 99999
+  }
+]

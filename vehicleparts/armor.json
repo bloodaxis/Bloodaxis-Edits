@@ -1,0 +1,24 @@
+[
+  {
+    "id": "omni_shock",
+    "type": "vehicle_part",
+    "name": { "str": "Omni Corp. shock absorber" },
+    "item": "omni_plate",
+    "location": "armor",
+    "symbol": "X",
+    "broken_symbol": "*",
+    "color": "dark_gray",
+	"bonus": 99999,
+    "broken_color": "light_gray",
+    "durability": 99999,
+    "folded_volume": "1 ml",
+    "description": "Omni Corp. Shock Absorber, will protect other items on the same frame from collisions",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] }
+    },
+    "flags": [ "ARMOR", "SHOCK_ABSORBER" ],
+    "damage_reduction": { "all": 99999, "cut": 99999, "stab": 99999 }
+  }
+]

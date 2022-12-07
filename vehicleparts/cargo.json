@@ -1,0 +1,42 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "omni_trunk_floor",
+    "name": { "str": "Omni Corp. floor trunk" },
+    "symbol": "=",
+    "looks_like": "trunk_floor",
+    "categories": [ "cargo" ],
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+	"cargo_weight_modifier": 0,
+    "durability": 99999,
+    "description": "An Omni Corp. aisle trunk.  A hatch lets you access a cargo space beneath it.",
+    "size": 3500,
+    "item": "omni_cargo_aisle",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] }
+    },
+    "flags": [ "AISLE", "BOARDABLE", "CARGO", "LOCKABLE_CARGO", "COVERED" ],
+    "breaks_into": "ig_omni_alloy",
+    "damage_reduction": { "all": 99999 }
+  },
+  {
+    "id": "omni_cargo_aisle",
+    "type": "GENERIC",
+    "name": { "str": "Omni Corp. floor trunk" },
+    "description": "A section of Omni Alloy flooring with a cargo-space beneath, and a hinged door for access.",
+    "weight": "1 g",
+    "color": "cyan",
+    "symbol": "]",
+    "volume": "1 L",
+    "bashing": 2,
+    "material": [ "omni_alloy" ],
+    "category": "veh_parts",
+    "price": 20000,
+    "price_postapoc": 500
+  }
+  ]

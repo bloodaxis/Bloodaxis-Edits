@@ -1,0 +1,14 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "atm_refurbished",
+    "looks_like": "t_atm",
+    "symbol": "&",
+    "color": "magenta",
+    "name": { "str": "Refurbished ATM" },
+    "description": "An ATM that has been refurbished for home use.",
+    "longest_side": "1700 mm",
+    "volume": "800 L",
+    "weight": "400 kg"
+  }
+]

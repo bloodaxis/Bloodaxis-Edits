@@ -1,0 +1,19 @@
+[
+{
+    "type": "GENERIC",
+    "id": "omni_plating",
+    "name": { "str_sp": "Omni Alloy Plating" },
+    "description": "A piece of armor plating made of Omni Alloy.",
+    "weight": "1 g",
+    "to_hit": -1,
+    "color": "light_cyan",
+    "symbol": "]",
+    "material": [ "omni_alloy" ],
+    "volume": "1 L",
+    "bashing": 6,
+    "category": "veh_parts",
+    "price": 12000,
+    "price_postapoc": 250,
+    "qualities": [ [ "COOK", 1 ] ]
+  }
+]

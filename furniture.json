@@ -1,0 +1,49 @@
+[
+{
+    "type": "furniture",
+    "id": "f_rack_mega",
+    "name": "rack mega",
+    "looks_like": "f_rack",
+    "description": "A rack of mega storage.",
+    "symbol": "}",
+    "color": "dark_gray",
+    "move_cost_mod": 2,
+    "coverage": 55,
+    "required_str": 7,
+    "flags": [ "PLACE_ITEM", "TRANSPARENT", "BLOCKSDOOR" ],
+	"deconstruct": { "items": [  ] },
+    "max_volume": "25000 L",
+    "bash": {
+      "str_min": 50,
+      "str_max": 300,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!"
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_atm_refurbished",
+    "name": "Refurbished ATM",
+    "description": "For your banking convenience, this Automated Teller Machine is fully capable of operating autonomously in the event of complete network failure.  You can deposit funds from cash cards and migrate all of your inflation-adjusted earnings to a single card.  These things have seen better days.  There's been a run on the bank, and this machine has the dents and cracks to prove it. This particular machine has been removed from the bank and emptied out.",
+    "symbol": "&",
+    "color": "magenta",
+    "move_cost": 0,
+	"looks_like": "t_atm",
+	"move_cost_mod": -1,
+	"required_str": 20,
+    "coverage": 55,
+    "flags": [ "TRANSPARENT", "NOITEM", "REDUCE_SCENT", "PERMEABLE" ],
+    "examine_action": "atm",
+    "bash": {
+      "str_min": 40,
+      "str_max": 210,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_floor",
+      "items": [
+        { "item": "steel_chunk", "count": [ 1, 3 ] },
+        { "item": "scrap", "count": [ 4, 8 ] }
+      ]
+    }
+  }
+  ]

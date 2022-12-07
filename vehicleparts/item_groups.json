@@ -1,0 +1,11 @@
+[
+  {
+    "type": "item_group",
+    "id": "ig_omni_alloy",
+    "subtype": "collection",
+    "items": [
+      { "item": "omni_alloy", "count": [ 1, 2 ] },
+      { "item": "omni_scrap", "count": [ 2, 3 ] }
+    ]
+  }
+]

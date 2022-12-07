@@ -1,0 +1,27 @@
+[
+{
+	"copy-from": "bed",
+    "type": "vehicle_part",
+    "id": "omni_bed",
+    "name": { "str": "Omni Corp. bed" },
+    "durability": 99999,
+    "size": 2000,
+	"description": "A small but incredibly comfortable Omni Corp. proprietary bed.",
+    "item": "mattress",
+    "comfort": 6,
+    "floor_bedding_warmth": 900,
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": "1 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      }
+    },
+    "flags": [ "BED", "BOARDABLE", "CARGO", "MOUNTABLE", "NONBELTABLE" ],
+    "breaks_into": "ig_omni_alloy",
+    "damage_reduction": { "all": 99999, "bash": 99999 }
+  }
+]

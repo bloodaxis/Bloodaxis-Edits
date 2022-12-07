@@ -1,0 +1,35 @@
+[
+  {
+    "abstract": "omniboard_abstract",
+    "type": "vehicle_part",
+    "copy-from": "base_board_abstract",
+    "item": "omni_plate",
+    "color": "dark_gray",
+    "durability": 99999,
+    "description": "A strong Omni Corp. wall.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
+    "breaks_into": "ig_omni_alloy",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] }
+    },
+    "damage_reduction": { "all": 99999 }
+  },
+  {
+    "id": "omnihalfboard",
+    "copy-from": "omniboard_abstract",
+    "type": "vehicle_part",
+    "name": { "str": "Omni Corp. quarterpanel" },
+    "description": "A half-height strong Omni Corp. wall.  Keeps zombies outside the vehicle but allows people to see over it.",
+    "extend": { "flags": [ "HALF_BOARD" ] },
+	"damage_reduction": { "all": 99999 },
+	"looks_like": "hdhalfboard"
+  },
+  {
+    "id": "hdhalfboard",
+    "copy-from": "hdhalfboard",
+	"type": "vehicle_part",
+	"durability": 99999,
+	"damage_reduction": { "all": 99999 }
+  }
+]

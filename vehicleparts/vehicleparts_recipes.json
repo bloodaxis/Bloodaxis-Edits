@@ -1,0 +1,74 @@
+[
+  {
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "result": "omni_tank_car",
+    "skill_used": "mechanics",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "result": "omni_plating",
+    "skill_used": "mechanics",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "result": "omni_wheel_assembly",
+    "skill_used": "mechanics",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "result": "omni_wheel",
+    "skill_used": "mechanics",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "result": "omni_vehicle_crafting",
+    "skill_used": "mechanics",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "omni_alloy", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "result": "omni_cargo_aisle",
+    "skill_used": "mechanics",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "omni_alloy", 1 ] ] ]
+  }
+]

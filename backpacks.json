@@ -1,0 +1,115 @@
+[
+{
+  "id": "omni_molle_large_rucksack",
+  "repairs_like": "bigback",
+  "type": "ARMOR",
+  "//": "Based upon own service and wikipedia: https://en.wikipedia.org/wiki/MOLLE",
+  "name": {
+    "str": "Omni Corp. MOLLE large rucksack"
+  },
+  "description": "The Modular Lightweight Load-carrying Equipment is an advanced military large rucksack.  Covered with straps for modularity, it strikes a fine balance between storage space and encumbrance.  Can attach accessory pockets to the outside rigging. This particular one has been modified with Omni Alloy.",
+  "weight": "1100 g",
+  "volume": "9000 ml",
+  "price": 19000,
+  "price_postapoc": 4500,
+  "material": [
+    "nylon",
+    "plastic",
+	"omni_alloy"
+  ],
+  "symbol": "[",
+  "looks_like": "backpack",
+  "color": "green",
+  "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "max_contains_volume": "70 L",
+      "max_contains_weight": "100 kg",
+      "max_item_length": "75 cm",
+      "magazine_well": "8 L",
+      "moves": 300
+    },
+    {
+      "//": "hydration pouch storage",
+      "pocket_type": "CONTAINER",
+      "max_contains_volume": "3001 ml",
+      "max_contains_weight": "4 kg",
+      "max_item_length": "30 cm",
+      "moves": 500,
+      "description": "Pouch sized for a hydration pack."
+    },
+    {
+      "//": "carabiner pocket",
+      "pocket_type": "CONTAINER",
+      "holster": true,
+      "max_contains_volume": "5 L",
+      "max_contains_weight": "6 kg",
+      "max_item_length": "120 cm",
+      "min_item_length": "20 cm",
+      "moves": 150,
+      "description": "Attached with a carabiner or strap.",
+      "activity_noise": {
+        "volume": 8,
+        "chance": 10
+      }
+    },
+    {
+      "//": "carabiner pocket",
+      "pocket_type": "CONTAINER",
+      "holster": true,
+      "max_contains_volume": "5 L",
+      "max_contains_weight": "6 kg",
+      "max_item_length": "120 cm",
+      "min_item_length": "20 cm",
+      "moves": 150,
+      "description": "Attached with a carabiner or strap.",
+      "activity_noise": {
+        "volume": 8,
+        "chance": 10
+      }
+    },
+    {
+      "//": "tucked against back",
+      "pocket_type": "CONTAINER",
+      "holster": true,
+      "max_contains_volume": "5 L",
+      "max_contains_weight": "4 kg",
+      "max_item_length": "150 cm",
+      "min_item_length": "60 cm",
+      "moves": 200,
+      "description": "Tucked between your back and the backpack."
+    }
+  ],
+  "warmth": 12,
+  "material_thickness": 2,
+  "flags": [
+    "BELTED",
+    "WATER_FRIENDLY",
+	"WATERPROOF",
+	"SUPER_FANCY",
+	"STURDY"
+  ],
+  "use_action": [
+    {
+      "type": "attach_molle",
+      "size": 20
+    },
+    {
+      "type": "detach_molle"
+    }
+  ],
+  "armor": [
+    {
+      "encumbrance": 8,
+      "volume_encumber_modifier": 0.05,
+      "coverage": 90,
+      "covers": [
+        "torso"
+      ],
+      "specifically_covers": [
+        "torso_hanging_back"
+      ]
+    }
+  ]
+}
+]

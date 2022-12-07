@@ -1,0 +1,63 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "hdroof",
+    "copy-from": "hdroof",
+    "durability": 99999,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [  ] }
+    },
+    "damage_reduction": { "all": 99999 }
+  },
+  {
+    "id": "omni_tank_car",
+    "type": "GENERIC",
+    "name": { "str": "Omni Corp. fuel tank" },
+    "symbol": "O",
+	"weight": "1 g",
+    "volume": "1 ml",
+	"price": "1750 USD",
+    "color": "brown",
+	"material": [ "omni_alloy" ],
+    "looks_like": "tank",
+    "description": "A massive storage space for holding fuel, made by Omni Corp.",
+	"flags": [ "TARDIS" ],
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "5000 L",
+        "max_contains_weight": "5000 kg"
+      }
+    ]
+  },
+  {
+    "id": "omni_tank",
+    "type": "vehicle_part",
+    "name": { "str": "Omni Corp. fuel tank" },
+    "item": "omni_tank_car",
+    "location": "fuel_source",
+    "symbol": "O",
+	"categories": [ "movement" ],
+    "color": "brown",
+    "broken_color": "red",
+    "durability": 99999,
+    "looks_like": "tank",
+    "description": "A massive storage space for holding fuel, made by Omni Corp.",
+	"cargo_weight_modifier": 0,
+    "size": 5000000,
+    "damage_modifier": 80,
+    "breaks_into": [ { "item": "omni_scrap", "count": [ 6, 9 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] }
+    },
+    "flags": [ "FLUIDTANK" ],
+    "folded_volume": "1 ml",
+    "damage_reduction": { "all": 99999, "stab": 99999 }
+  }
+]

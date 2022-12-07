@@ -1,0 +1,15 @@
+[
+{
+    "result": "omniscabbard",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+	"flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "omni_alloy", 1 ] ] ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "GENERIC",
+    "category": "currency",
+    "id": "denarius",
+	"name": { "str": "denarius", "str_pl": "denarii" },
+    "copy-from": "denarius",
+    "price": 2500000,
+    "price_postapoc": 2500000
+
+  }
+]

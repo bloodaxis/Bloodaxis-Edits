@@ -1,0 +1,11 @@
+[
+  {
+    "id": "bloodaxischanges",
+    "type": "MOD_INFO",
+    "name": "Bloodaxis own mods",
+    "authors": [ "Bloodaxis" ],
+    "description": "A bunch of my own changes",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

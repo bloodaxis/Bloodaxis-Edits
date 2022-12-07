@@ -1,0 +1,37 @@
+[
+{
+    "abstract": "helicopter_rotors_omni",
+    "type": "vehicle_part",
+    "categories": [ "movement" ],
+    "location": "on_roof",
+    "symbol": "X",
+    "color": "light_blue",
+	"looks_like": "xl_wind_turbine",
+	"material": "omni_alloy",
+    "broken_symbol": "O",
+    "broken_color": "light_gray",
+    "flags": [ "ROTOR" ],
+    "description": "A set of Omni Corp. helicopter rotors, when spun at high speed, they generate thrust via lift."
+  },
+  {
+    "id": "heavy_duty_omni_rotor",
+    "copy-from": "helicopter_rotors_omni",
+    "type": "vehicle_part",
+    "name": { "str": "omni corp. rotors" },
+    "item": "omni_plating",
+    "//": "rotor diameter is in meters",
+    "rotor_diameter": 3,
+	"bonus": 999999,
+	"power": 999999,
+    "durability": 99999,
+    "description": "A set of four Omni Corp.-grade helicopter rotor blades, used to provide lift by rotation.",
+    "damage_modifier": 80,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [  ] }
+    },
+    "breaks_into": [ { "item": "omni_alloy", "count": [ 1, 2 ] }, { "item": "omni_scrap", "count": [ 1, 2 ] } ],
+    "damage_reduction": { "all": 99999 }
+  }
+]

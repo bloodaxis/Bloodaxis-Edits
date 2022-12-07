@@ -1,0 +1,69 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "omni_vehicle_crafting",
+    "name": { "str": "Omni Corp. vehicle crafting suite" },
+    "categories": [ "utility" ],
+    "symbol": "#",
+    "color": "red",
+    "broken_symbol": "x",
+    "broken_color": "yellow",
+    "looks_like": "workbench_with_recharger",
+    "damage_modifier": 10,
+	"bonus": 500,
+    "epower": -25,
+	"cargo_weight_modifier": 0,
+    "durability": 99999,
+    "description": "An all-in-one kitchen unit, chemistry lab, and food preparation area.  'e'xamine it to use its hotplate to heat up food or drinks.",
+    "size": 5000,
+    "item": "omni_vehicle_crafting",
+    "location": "center",
+	"crafting_pseudo_item": "large_surface_pseudo",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_wrench_2", 1 ] ] }
+    },
+    "flags": [ "CARGO", "COVERED", "BOARDABLE", "FLAT_SURF", "WORKBENCH", "ENABLED_DRAINS_EPOWER", "RECHARGE" ],
+    "pseudo_tools": [
+      { "id": "water_faucet" },
+      { "id": "vac_sealer" },
+      { "id": "dehydrator" },
+      { "id": "food_processor" },
+      { "id": "press" },
+      { "id": "puller" },
+      { "id": "vac_mold" },
+	  { "id": "welder", "hotkey": "w" }, 
+	  { "id": "soldering_iron", "hotkey": "s" }, 
+	  { "id": "forge" }, 
+	  { "id": "kiln" },
+      { "id": "pot" },
+      { "id": "pan" },
+      { "id": "chemistry_set", "hotkey": "h" },
+      { "id": "electrolysis_kit" },
+      { "id": "pseudo_water_purifier", "hotkey": "p" }
+    ],
+    "breaks_into": [
+      { "item": "omni_alloy", "count": [ 1, 2 ] },
+      { "item": "omni_scrap", "count": [ 1, 2 ] }
+    ],
+	"workbench": { "multiplier": 10.0, "mass": 600000, "volume": "60L" },
+	"damage_reduction": { "all": 99999 }
+  },
+  {
+    "type": "GENERIC",
+    "id": "omni_vehicle_crafting",
+    "name": { "str": "Omni Corp. crafting suite" },
+    "description": "A universal crafting station designed by Omni Corp. to be your one stop shop for crafting needs in your mobile home away from home.",
+    "weight": "1 g",
+    "to_hit": 1,
+    "color": "red",
+    "symbol": "0",
+    "material": [ "omni_alloy" ],
+    "volume": "1 ml",
+    "bashing": 5,
+    "category": "veh_parts",
+    "price": 90000,
+    "price_postapoc": 1000
+  }
+]

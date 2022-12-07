@@ -1,0 +1,33 @@
+[
+  {
+    "id": "omni_gunmod",
+    "type": "GUNMOD",
+    "name": { "str": "omni corp. gun improvement" },
+    "//": "SilencerCo Hybrid 46",
+    "description": "Omni Corps general firearm improvement suite comes with waterproofing seals.",
+    "weight": "490 g",
+    "volume": "247 ml",
+    "price": 77000,
+    "price_postapoc": 1500,
+    "to_hit": 1,
+    "bashing": 3,
+    "material": [ "omni_alloy" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "mechanism",
+    "mod_targets": [ "pistol", "smg", "rifle", "shotgun", "launcher" ],
+    "install_time": "30 s",
+    "handling_modifier": 4,
+	"aim_speed_modifier": 40,
+	"sight_dispersion": 15,
+    "field_of_view": 3000,
+	"reload_modifier": -10,
+	"recoil_modifier": -100,
+	"range_multiplier": 1.2,
+	"damage_modifier": { "damage_type": "bullet", "amount": 3, "armor_penetration": 2 },
+	"dispersion_modifier": -150,
+    "loudness_modifier": -100,
+	"mode_modifier": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
+	"flags": [ "WATERPROOF_GUN", "NON_FOULING" ]
+  }
+]

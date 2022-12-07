@@ -1,0 +1,62 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_mega_rack",
+    "name": "Build Rack MEGA"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_t_nano_floor",
+    "name": "Build Nano Floor"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_t_nano_wall",
+    "name": "Build Nano Wall"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_t_nano_door_c",
+    "name": "Build Nano Iris"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_t_nano_roof",
+    "name": "Build Nano Roof"
+  },
+  {
+    "type": "construction_group",
+    "id": "remove_t_nano_floor",
+    "name": "Remove Nano Floor"
+  },
+  {
+    "type": "construction_group",
+    "id": "remove_t_nano_wall",
+    "name": "Remove Nano Wall"
+  },
+  {
+    "type": "construction_group",
+    "id": "remove_t_nano_door_c",
+    "name": "Remove Nano Iris"
+  },
+  {
+    "type": "construction_group",
+    "id": "remove_t_nano_roof",
+    "name": "Remove Nano Roof"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_f_atm_refurbished",
+    "name": "Place Refurbished ATM"
+  },
+  {
+    "type": "construction_group",
+    "id": "remove_t_atm",
+    "name": "Remove Bank ATM"
+  },
+  {
+    "type": "construction_group",
+    "id": "remove_f_atm_refurbished",
+    "name": "Remove Refurbished ATM"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "nodachi_plus_two",
+    "copy-from": "nodachi_plus_two",
+    "name": { "str_sp": "nodachi +2" },
+	"techniques": [ "WBLOCK_1", "RAPID", "WIDE", "BRUTAL", "VORPAL" ]
+  }
+]

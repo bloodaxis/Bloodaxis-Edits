@@ -1,0 +1,32 @@
+[
+{
+    "id": "omniscabbard",
+    "type": "ARMOR",
+    "name": { "str": "Omni Corp. scabbard" },
+    "description": "An Omni Alloy scabbard, big enough for almost any sword.  Designed to be strapped to the back, this particular Omni Corp. scabbard has been made with ease of use in mind.  Activate to sheath/draw a sword.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 9000,
+    "price_postapoc": 750,
+    "bashing": 4,
+    "material": [ "omni_alloy" ],
+    "symbol": "[",
+    "looks_like": "baldric",
+    "color": "brown",
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "magazine_well": "3750 ml",
+        "max_contains_volume": "5750 ml",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "200 cm",
+        "holster": true,
+        "moves": 25,
+        "flag_restriction": [ "SHEATH_SWORD" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Sheath sword", "holster_msg": "You sheath your %s" },
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "WATERPROOF", "TARDIS" ],
+    "armor": [ { "encumbrance": [ 2, 4 ], "coverage": 20, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_hip_r", "leg_hip_l" ] } ]
+  }
+]

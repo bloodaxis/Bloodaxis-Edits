@@ -1,0 +1,80 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_remove_t_nano_floor",
+    "group": "remove_t_nano_floor",
+    "//": "Makes the Nanites evaporate into nothing.",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "using": [  ],
+	"byproducts": [  ],
+    "pre_terrain": "t_nano_floor",
+    "post_terrain": "t_dirt"
+  },  
+  {
+    "type": "construction",
+    "id": "constr_remove_t_nano_wall",
+    "group": "remove_t_nano_wall",
+    "//": "Makes the Nanites evaporate into nothing.",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "using": [  ],
+    "byproducts": [  ],
+    "pre_terrain": "t_nano_wall",
+    "post_terrain": "t_dirt"
+  },  
+  {
+    "type": "construction",
+    "id": "constr_remove_t_nano_door_c",
+    "group": "remove_t_nano_door_c",
+    "//": "Makes the Nanites evaporate into nothing.",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "using": [  ],
+    "byproducts": [  ],
+    "pre_terrain": "t_nano_door_c",
+    "post_terrain": "t_dirt"
+  },  
+  {
+    "type": "construction",
+    "id": "constr_remove_t_nano_roof",
+    "group": "remove_t_nano_roof",
+    "//": "Makes the Nanites evaporate into nothing.",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "using": [  ],
+    "byproducts": [  ],
+    "pre_terrain": "t_nano_roof",
+    "post_terrain": "t_dirt"
+  },
+  {
+    "type": "construction",
+    "id": "constr_remove_t_atm",
+    "group": "remove_t_atm",
+    "//": "Removes an ATM from the Bank.",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "using": [  ],
+    "byproducts": [ { "item": "atm_refurbished", "count": 1 } ],
+    "pre_terrain": "t_atm",
+    "post_terrain": "t_floor"
+  },
+  {
+    "type": "construction",
+    "id": "constr_remove_f_atm_refurbished",
+    "group": "remove_f_atm_refurbished",
+    "//": "Removes the Refurbished ATM for installation elsewhere.",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "using": [  ],
+    "byproducts": [ { "item": "atm_refurbished", "count": 1 } ],
+    "pre_terrain": "f_atm_refurbished",
+    "post_terrain": "t_null"
+  }
+]

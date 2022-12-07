@@ -1,0 +1,20 @@
+[
+  {
+    "id": "omni_nodachi",
+    "type": "TOOL",
+    "copy-from": "qt_nodachi",
+    "name": { "str_sp": "Omni nodachi" },
+	"description": "This is a huge, curved, two-handed sword from Japan.  It is surprisingly light for its size.\n\nMade of Omni Alloy, this is a masterpiece.  The grip, the balance, the blade, all perfect.  This is the peak of the swordsmith's craft. This one has been modified with Omni Alloy. The Omni Alloy has, by some unknown chemical reaction, coated the blade with diamond and made it able to sever anything randomly.",
+    "weight": "1000 g",
+    "cutting": 63,
+    "price": 250000,
+    "price_postapoc": 12000,
+    "material": [ "omni_alloy" ],
+    "repairs_with": [ "omni_alloy" ],
+    "flags": [ "UNBREAKABLE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "NONCONDUCTIVE", "DIAMOND" ],
+    "techniques": [ "WBLOCK_1", "RAPID", "WIDE", "BRUTAL", "VORPAL" ],
+    "to_hit": { "grip": "weapon", "length": "long", "surface": "line", "balance": "good" },
+    "qualities": [ [ "CUT", 3 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 15 ] ],
+    "weapon_category": [ "JAPANESE_SWORDS", "LONG_SWORDS", "GREAT_SWORDS" ]
+  }
+]

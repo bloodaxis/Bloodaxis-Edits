@@ -1,0 +1,67 @@
+[
+  {
+    "abstract": "omnidoor_abstract",
+    "breaks_into": "ig_omni_alloy",
+    "broken_color": "cyan",
+    "broken_symbol": "&",
+    "categories": [ "hull" ],
+    "color": "cyan",
+    "damage_modifier": 80,
+	"cargo_weight_modifier": 0,
+    "damage_reduction": { "all": 99999 },
+    "description": "A strong door.  Has a window so you can see out of it, even when closed.",
+    "durability": 99999,
+    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "DOOR" ],
+    "item": "omni_plating",
+    "location": "center",
+    "looks_like": "door",
+    "name": { "str": "Omni Corp. door" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] }
+    },
+    "size": 1000,
+    "symbol": "+",
+    "symbols": { "left": "+", "right": "+", "front": "+", "rear": "+" },
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "omnidoor_abstract",
+    "id": "hddoor",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "omnidoor_abstract",
+    "id": "hddoor_full",
+    "looks_like": "hddoor",
+    "type": "vehicle_part"
+  },
+  {
+    "id": "omnihatch",
+    "breaks_into": "ig_vp_hdframe",
+    "broken_color": "dark_gray",
+    "broken_symbol": "&",
+    "categories": [ "hull" ],
+    "color": "dark_gray",
+    "damage_modifier": 80,
+	"cargo_weight_modifier": 0,
+    "damage_reduction": { "all": 999999 },
+    "description": "A very strong Omni Corp. door.  A window lets you see through it when closed.",
+    "durability": 999999,
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "DOOR", "WINDOW" ],
+    "item": "omni_plating",
+    "location": "center",
+    "looks_like": "hdhatch",
+    "name": { "str": "Omni Corp. hatch" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] }
+    },
+    "size": 1000,
+    "symbol": "+",
+    "symbols": { "left": "+", "right": "+", "front": "+", "rear": "+" },
+    "type": "vehicle_part"
+  }
+]

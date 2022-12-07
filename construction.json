@@ -1,0 +1,65 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_mega_rack",
+    "group": "build_mega_rack",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "pre_special": "check_empty",
+    "post_terrain": "f_rack_mega"
+  },
+  {
+    "type": "construction",
+    "id": "constr_t_nano_floor",
+    "group": "build_t_nano_floor",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "pre_special": "check_empty",
+    "post_terrain": "t_nano_floor"
+  },
+  {
+    "type": "construction",
+    "id": "constr_t_nano_wall",
+    "group": "build_t_nano_wall",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "pre_special": "check_empty",
+    "post_terrain": "t_nano_wall"
+  },
+  {
+    "type": "construction",
+    "id": "constr_t_nano_door_c",
+    "group": "build_t_nano_door_c",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "pre_special": "check_empty",
+    "post_terrain": "t_nano_door_c"
+  },
+  {
+    "type": "construction",
+    "id": "constr_t_nano_roof",
+    "group": "build_t_nano_roof",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "pre_special": "check_empty",
+    "post_terrain": "t_nano_roof"
+  },
+  {
+    "type": "construction",
+    "id": "app_t_atm_refurbished",
+    "group": "place_f_atm_refurbished",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 3 ], [ "mechanics", 6 ] ],
+    "time": "5 m",
+    "qualities": [ [ { "id": "WRENCH", "level": 1 } ] ],
+    "components": [ [ [ "atm_refurbished", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_atm_refurbished",
+    "activity_level": "LIGHT_EXERCISE"
+  }
+]

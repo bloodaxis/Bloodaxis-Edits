@@ -1,0 +1,220 @@
+[
+  {
+    "id": "HALFHUNGER",
+    "type": "mutation",
+    "name": { "str": "Hunger Reduction 1/2" },
+    "points": 0,
+    "description": "The need for food is reduced by 1/2 from the base game.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "metabolism_modifier": -0.5
+  },
+  {
+    "id": "HALFTHIRST",
+    "type": "mutation",
+    "name": { "str": "Thirst Reduction 1/2" },
+    "points": 0,
+    "description": "The need for liquid is reduced by 1/2 from the base game.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "thirst_modifier": -0.5
+  },
+  {
+    "id": "QUARTERHUNGER",
+    "type": "mutation",
+    "name": { "str": "Hunger Reduction 1/4" },
+    "points": 0,
+    "description": "The need for food is reduced by 3/4 from the base game.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "metabolism_modifier": -0.75
+  },
+  {
+    "id": "QUARTERTHIRST",
+    "type": "mutation",
+    "name": { "str": "Thirst Reduction 1/4" },
+    "points": 0,
+    "description": "The need for liquid is reduced by 3/4 from the base game.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "thirst_modifier": -0.75
+  },
+  {
+    "id": "TENTHHUNGER",
+    "type": "mutation",
+    "name": { "str": "Hunger Reduction 1/10" },
+    "points": 0,
+    "description": "The need for food is reduced by 9/10 from the base game.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "metabolism_modifier": -0.9
+  },
+  {
+    "id": "TENTHTHIRST",
+    "type": "mutation",
+    "name": { "str": "Thirst Reduction 1/10" },
+    "points": 0,
+    "description": "The need for liquid is reduced by 9/10 from the base game.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "thirst_modifier": -0.9
+  },
+  {
+    "id": "LESSENCUMBRANCE1",
+    "type": "mutation",
+    "name": { "str": "-30 encumbrance on all bodyparts 1" },
+    "points": 0,
+    "description": "-30 encumbrance on all bodyparts. 1/3",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+	"encumbrance_always": [
+      [ "torso", -30 ],
+      [ "head", -30 ],
+	  [ "eyes", -30 ],
+	  [ "mouth", -30 ],
+      [ "arm_l", -30 ],
+      [ "arm_r", -30 ],
+      [ "hand_l", -30 ],
+      [ "hand_r", -30 ],
+      [ "leg_l", -30 ],
+      [ "leg_r", -30 ],
+      [ "foot_l", -30 ],
+      [ "foot_r", -30 ]
+    ]
+  },
+  {
+    "id": "LESSENCUMBRANCE2",
+    "type": "mutation",
+    "name": { "str": "-30 encumbrance on all bodyparts 2" },
+    "points": 0,
+    "description": "-30 encumbrance on all bodyparts. 2/3",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+	"encumbrance_always": [
+      [ "torso", -30 ],
+      [ "head", -30 ],
+	  [ "eyes", -30 ],
+	  [ "mouth", -30 ],
+      [ "arm_l", -30 ],
+      [ "arm_r", -30 ],
+      [ "hand_l", -30 ],
+      [ "hand_r", -30 ],
+      [ "leg_l", -30 ],
+      [ "leg_r", -30 ],
+      [ "foot_l", -30 ],
+      [ "foot_r", -30 ]
+    ]
+  },
+  {
+    "id": "LESSENCUMBRANCE3",
+    "type": "mutation",
+    "name": { "str": "-30 encumbrance on all bodyparts 3" },
+    "points": 0,
+    "description": "-30 encumbrance on all bodyparts. 3/3",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+	"encumbrance_always": [
+      [ "torso", -30 ],
+      [ "head", -30 ],
+	  [ "eyes", -30 ],
+	  [ "mouth", -30 ],
+      [ "arm_l", -30 ],
+      [ "arm_r", -30 ],
+      [ "hand_l", -30 ],
+      [ "hand_r", -30 ],
+      [ "leg_l", -30 ],
+      [ "leg_r", -30 ],
+      [ "foot_l", -30 ],
+      [ "foot_r", -30 ]
+    ]
+  },
+  {
+    "id": "MORESTATS1",
+    "type": "mutation",
+    "name": { "str": "+10 to all stats 1/3" },
+    "points": 0,
+    "description": "+10 to all stats",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+	"passive_mods": { "dex_mod": 10, "str_mod": 10, "per_mod": 10, "int_mod": 10 }
+  },
+  {
+    "id": "MORESTATS2",
+    "type": "mutation",
+    "name": { "str": "+10 to all stats 2/3" },
+    "points": 0,
+    "description": "+10 to all stats",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+	"passive_mods": { "dex_mod": 10, "str_mod": 10, "per_mod": 10, "int_mod": 10 }
+  },
+  {
+    "id": "MORESTATS3",
+    "type": "mutation",
+    "name": { "str": "+10 to all stats 3/3" },
+    "points": 0,
+    "description": "+10 to all stats",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+	"passive_mods": { "dex_mod": 10, "str_mod": 10, "per_mod": 10, "int_mod": 10 }
+  },
+  {
+    "type": "mutation",
+    "id": "REGEN",
+    "copy-from": "REGEN",
+    "extend": { "threshreq": [ "THRESH_ALPHA" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "STR_ALPHA",
+    "copy-from": "STR_ALPHA",
+    "passive_mods": { "str_mod": 3 }
+  },
+  {
+    "type": "mutation",
+    "id": "DEX_ALPHA",
+    "copy-from": "DEX_ALPHA",
+    "passive_mods": { "dex_mod": 3 }
+  },
+  {
+    "type": "mutation",
+    "id": "INT_ALPHA",
+    "copy-from": "INT_ALPHA",
+    "passive_mods": { "int_mod": 3 }
+  },
+  {
+    "type": "mutation",
+    "id": "PER_ALPHA",
+	"copy-from": "PER_ALPHA",
+    "passive_mods": { "per_mod": 3 }
+  },
+  {
+    "type": "mutation",
+    "id": "WAKEFUL3",
+    "copy-from": "WAKEFUL3",
+    "extend": { "threshreq": [ "THRESH_ALPHA" ] }
+  },
+    {
+    "id": "InfStamina",
+    "type": "mutation",
+    "name": { "str": "Disable Stamina" },
+    "points": 0,
+    "description": "Basically disables stamina by setting it to regen faster than you can use it.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "stamina_regen_modifier": 10000.0
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "omni_wheel_assembly",
+    "name": { "str": "Omni Corp. wheel hub assembly" },
+    "symbol": "-",
+    "categories": [ "movement" ],
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "durability": 99999,
+    "description": "Connection where wheels can be connected on.  This particular one is fit for large car wheels.",
+    "item": "omni_wheel_assembly",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "0 m", "using": [  ] },
+      "removal": {
+        "skills": [ [ "mechanics", 0 ] ],
+        "time": "1 m",
+        "using": [  ]
+      },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] }
+    },
+    "flags": [ "WHEEL_MOUNT_HEAVY", "NEEDS_JACKING", "UNBREAKABLE", "ARMOR", "SHOCK_ABSORBER" ],
+    "breaks_into": [ { "item": "omni_alloy", "count": [ 1, 2 ] }, { "item": "omni_scrap", "count": [ 1, 2 ] } ],
+    "damage_reduction": { "all": 99999 }
+  },
+  {
+    "id": "omni_wheel_assembly_steerable",
+    "copy-from": "omni_wheel_assembly",
+    "type": "vehicle_part",
+    "name": { "str": "Omni Corp. wheel hub assembly (steerable)" },
+    "extend": { "flags": [ "STEERABLE" ] }
+  },
+  {
+    "id": "omni_wheel_assembly",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "Omni Corp. wheel hub assembly", "str_pl": "Omni Corp. wheel hub assemblies" },
+    "description": "A heavy Omni Alloy assembly that allows bolting a wheel on a car.  Fit for a large car wheel.",
+    "weight": "1 kg",
+    "volume": "1 L",
+    "longest_side": "254 mm",
+    "price": 5000,
+    "price_postapoc": 500,
+    "bashing": 14,
+    "to_hit": -2,
+    "material": [ "omni_alloy" ],
+    "symbol": ";",
+    "color": "dark_gray"
+  },
+  {
+    "id": "omni_wheel",
+    "type": "vehicle_part",
+    "name": { "str": "Omni Corp. wheel" },
+    "item": "omni_wheel",
+    "location": "under",
+    "looks_like": "wheel",
+    "symbol": "0",
+    "broken_symbol": "x",
+    "categories": [ "movement" ],
+    "color": "green",
+    "durability": 99999,
+    "description": "A very strong, armored Omni Corp. wheel.",
+    "damage_modifier": 50,
+    "breaks_into": [
+      { "item": "omni_alloy", "count": [ 1, 2 ] },
+      { "item": "omni_scrap", "count": [ 1, 2 ] }
+    ],
+    "rolling_resistance": 0.6,
+    "wheel_type": "standard",
+    "contact_area": 480,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 m", "using": [  ] }
+    },
+    "flags": [ "WHEEL", "UNSTABLE_WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY", "UNBREAKABLE", "ARMOR", "SHOCK_ABSORBER" ],
+    "damage_reduction": { "all": 99999, "cut": 99999, "stab": 99999 }
+  },
+  {
+    "type": "WHEEL",
+    "id": "omni_wheel",
+    "category": "veh_parts",
+    "name": { "str": "Omni Corp. wheel" },
+    "description": "A wide Omni Corp. grade wheel.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "longest_side": "813 mm",
+    "price": 34000,
+    "price_postapoc": 750,
+    "bashing": 17,
+    "to_hit": -1,
+    "material": [ "omni_alloy" ],
+    "symbol": "]",
+    "color": "green",
+    "diameter": 32,
+    "width": 20
+  }
+]
